@@ -64,5 +64,3 @@
 ## 许可
 
 AGPL-3.0，详见 [LICENSE](LICENSE)。
-
-<!-- trigger 1794104225 -->
