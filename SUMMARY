@@ -1,3 +1,4 @@
 使用 libxposed API 102，为荣耀 MagicOS「软件更新」（com.hihonor.ouc）恢复被隐藏的本地更新入口，并可分别开关「屏蔽新版本提示」与「强制请求全量包」。开关配置写入 /data/local_ota，设置页需 root 通过 su 访问该目录。
 
 已适配「软件更新」2.1.1.1（versionCode 205），测试机型荣耀 AAK-AN00（MagicOS 11 / Android 17）。
+本模块代码与文档主要由大语言模型（LLM）生成，请在 README 的「AI 生成内容声明」中了解相关风险。
