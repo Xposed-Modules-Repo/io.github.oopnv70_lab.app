@@ -1,3 +1,4 @@
 使用 libxposed API 102，为荣耀 MagicOS「软件更新」（com.hihonor.ouc）提供「屏蔽新版本提示」与「强制请求全量包」两个可分别开关的功能。开关配置写入 /data/local_ota，设置页需 root 通过 su 访问该目录。
-已适配「软件更新」2.1.1.1（versionCode 205），测试机型荣耀 AAK-AN00（MagicOS 11 / Android 17）。
+hook 目标在运行时由 DexKit 按语义特征（方法签名、协议字符串、未混淆的接口方法名）查找，非纯硬编码。已适配「软件更新」18.0.3.227 与 18.0.3.230，测试机型荣耀 AAK-AN00（MagicOS 11 / Android 17）。
+依赖 DexKit（LGPL-3.0 / Apache-2.0 双许可）等第三方组件，清单与许可全文见仓库 THIRD_PARTY_NOTICES.txt 与 licenses/。
 本模块代码与文档主要由大语言模型（LLM）生成，请在 README 的「AI 生成内容声明」中了解相关风险。
